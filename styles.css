@@ -1,0 +1,151 @@
+body{
+margin: 0;
+text-align: center;
+font-family: 'courier' , monospace;
+}
+h1
+{
+  /* or you can use this to make anything to center */
+  /* margin: 0 auto 0 auto; */
+  font-size: 35px;
+  font-family: 'Pacifico', cursive;
+  margin: 50px auto 0 auto;
+}
+h2{
+  font-family: 'Pacifico', cursive;
+  font-weight: normal;
+  /* padding-bottom: 10px; */
+}
+
+h3{
+  font-family: 'Pacifico', cursive;
+  font-weight: normal;
+}
+.bottom-cloud{
+  position: absolute;
+  left: 460px;
+  bottom: 250px;
+}
+
+.middle-cloud{
+  position: absolute;
+  right: 390px;
+  top: 330px
+}
+
+.upper-cloud{
+  position: absolute;
+  right:410px;
+  top: 470px;
+
+}
+.top-container{
+  background-color: #feffde;
+  position: relative;
+  padding-top: 200px;
+
+
+}
+
+.middle-container{
+  background-color: #ffd8cc;
+  /* margin-bottom: 100px; */
+  padding-bottom: 50px;
+
+}
+
+.bottom-container{
+  position: relative;
+  padding: 30px 0px 16px;
+  background-color: #caf7e3;
+
+}
+
+.skill-row{
+   width: 50%;
+   margin: 70px auto 100px auto;
+   line-height: 200%;
+
+}
+.profile{
+  padding-top: 20px;
+  width: 50%;
+  margin: 0px auto;
+}
+
+.skill-pic1{
+  width: 25%;
+  float: left;
+  padding-right: 30px;
+  padding-bottom: 100px;
+}
+
+.skill-pic2{
+  width: 25%;
+  float: right;
+  padding-left: 30px;
+  padding-bottom: 100px;
+}
+
+hr{
+  border: dotted;
+  border-bottom: none;
+  width: 10%;
+  margin: 30px auto ;
+}
+.contact-me-p{
+  margin-bottom: 50px;
+}
+
+.btn-email{
+  -webkit-border-radius: 27;
+  -moz-border-radius: 27;
+  border-radius: 27px;
+  font-family: Courier New;
+  color: #feffde;
+  font-size: 25px;
+  background: #000000;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn-email:hover {
+  background: #3cb0fd;
+  text-decoration: none;
+}
+
+.btn-twitter{
+  -webkit-border-radius: 27;
+  -moz-border-radius: 27;
+  border-radius: 27px;
+  font-family: Courier New;
+  color: #00c0fa;
+  font-size: 25px;
+  background: #000000;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn-twitter:hover {
+  text-decoration: none;
+}
+
+.btn-instagram {
+  -webkit-border-radius: 27;
+  -moz-border-radius: 27;
+  border-radius: 27px;
+  font-family: Courier New;
+  color: #c470f5;
+  font-size: 25px;
+  background: #000000;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:-instagram {
+  text-decoration: none;
+}
+
+.license{
+  margin: 30px auto 0px;
+}
